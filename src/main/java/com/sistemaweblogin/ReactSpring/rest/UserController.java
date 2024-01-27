@@ -30,9 +30,8 @@ import static com.sistemaweblogin.ReactSpring.config.SwaggerConfig.BEARER_KEY_SE
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/api")
 @CrossOrigin(origins = { "https://spring-api-one.vercel.app" })
-
+@RequestMapping("/api")
 public class UserController {
   
     private final UserService userService;
