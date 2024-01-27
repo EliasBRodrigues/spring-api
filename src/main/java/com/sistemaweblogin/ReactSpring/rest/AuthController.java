@@ -26,7 +26,8 @@ import com.sistemaweblogin.ReactSpring.service.UserService;
 
 @RequiredArgsConstructor
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000"})
+@CrossOrigin(origins = { "https://spring-api-one.vercel.app" })
+
 
 @RequestMapping("/auth")
 public class AuthController {
