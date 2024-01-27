@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @RequiredArgsConstructor
 @Configuration
 @EnableWebSecurity
-@CrossOrigin(origins = { "http://localhost:3000" })
+@CrossOrigin(origins = { "https://spring-api-one.vercel.app" })
 public class WebSecurityConfig {
 
     private final TokenAuthenticationFilter tokenAuthenticationFilter;
